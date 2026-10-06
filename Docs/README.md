@@ -16,4 +16,4 @@ dotnet run --project SoftwareTesting.csproj
 dotnet test SoftwareTesting.sln
 ```
 
-Все 22 теста также видны в Visual Studio: **Тест → Обозреватель тестов**. Отчёт и шаги воспроизведения ошибок: [LAB1.md](LAB1.md).
+Все 22 теста также видны в Visual Studio: **Тест → Обозреватель тестов**. [Подробный разбор кода](CODE_WALKTHROUGH.md) объясняет назначение каждого модуля и путь вычисления. Отчёт и шаги воспроизведения ошибок: [LAB1.md](LAB1.md).
