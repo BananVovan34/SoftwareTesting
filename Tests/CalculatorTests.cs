@@ -113,6 +113,18 @@ namespace SoftwareTestingTests
             Check("abc", "2", "+", "", "Введите два числа.");
         }
 
+        [TestMethod]
+        public void GroupedNumberWithCommaThousands()
+        {
+            Check("1,234.5", "1", "+", "1235,5", "");
+        }
+
+        [TestMethod]
+        public void GroupedNumberWithDotThousands()
+        {
+            Check("1.234,5", "1", "+", "1235,5", "");
+        }
+
         private static void Check(string first, string second, string operation, string result, string error)
         {
             bool success = CalculatorSession.TryCalculate(first, second, operation,
