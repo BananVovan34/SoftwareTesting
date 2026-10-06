@@ -52,6 +52,7 @@
             operationComboBox.Location = new Point(24, 48);
             operationComboBox.Size = new Size(252, 28);
             operationComboBox.SelectedIndex = 0;
+            operationComboBox.SelectedIndexChanged += InputChanged;
 
             firstNumberLabel.AutoSize = true;
             firstNumberLabel.Location = new Point(24, 90);
@@ -59,6 +60,7 @@
             firstNumberTextBox.Location = new Point(24, 113);
             firstNumberTextBox.Name = "firstNumberTextBox";
             firstNumberTextBox.Size = new Size(252, 27);
+            firstNumberTextBox.TextChanged += InputChanged;
 
             secondNumberLabel.AutoSize = true;
             secondNumberLabel.Location = new Point(24, 154);
@@ -66,6 +68,7 @@
             secondNumberTextBox.Location = new Point(24, 177);
             secondNumberTextBox.Name = "secondNumberTextBox";
             secondNumberTextBox.Size = new Size(252, 27);
+            secondNumberTextBox.TextChanged += InputChanged;
 
             calculateButton.Location = new Point(24, 222);
             calculateButton.Name = "calculateButton";

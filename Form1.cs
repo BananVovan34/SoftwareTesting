@@ -32,5 +32,11 @@ namespace SoftwareTesting
             operationComboBox.SelectedIndex = 0;
             firstNumberTextBox.Focus();
         }
+
+        private void InputChanged(object sender, EventArgs e)
+        {
+            resultTextBox.Clear();
+            errorLabel.Text = string.Empty;
+        }
     }
 }
