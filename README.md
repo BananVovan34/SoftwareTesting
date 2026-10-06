@@ -13,7 +13,7 @@ dotnet run --project SoftwareTesting.csproj
 ## Проверки
 
 ```powershell
-dotnet run --project Tests/SoftwareTesting.Tests.csproj
+dotnet test SoftwareTesting.sln
 ```
 
-Отчёт по лабораторной работе: [LAB1.md](LAB1.md).
+Тесты также видны в Visual Studio: **Тест → Обозреватель тестов**. Отчёт по лабораторной работе: [LAB1.md](LAB1.md).
