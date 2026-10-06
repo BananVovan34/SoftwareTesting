@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace SoftwareTesting
 {
@@ -41,8 +42,30 @@ namespace SoftwareTesting
 
         private static bool TryReadNumber(string text, out decimal number)
         {
+            string input = text.Trim();
+
+            if (input.Contains(',') && input.Contains('.'))
+            {
+                bool commaIsGroup = input.LastIndexOf(',') < input.LastIndexOf('.');
+                string pattern = commaIsGroup
+                    ? @"^[+-]?[0-9]{1,3}(?:,[0-9]{3})+\.[0-9]+$"
+                    : @"^[+-]?[0-9]{1,3}(?:\.[0-9]{3})+,[0-9]+$";
+
+                if (!Regex.IsMatch(input, pattern))
+                {
+                    number = 0;
+                    return false;
+                }
+
+                string normalizedGroup = input.Replace(commaIsGroup ? "," : ".", string.Empty)
+                    .Replace(",", ".");
+                return decimal.TryParse(normalizedGroup,
+                    NumberStyles.AllowLeadingSign | NumberStyles.AllowDecimalPoint,
+                    CultureInfo.InvariantCulture, out number);
+            }
+
             string separator = CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
-            string normalized = text.Trim().Replace(",", separator).Replace(".", separator);
+            string normalized = input.Replace(",", separator).Replace(".", separator);
             return decimal.TryParse(normalized, NumberStyles.Number,
                 CultureInfo.CurrentCulture, out number);
         }
