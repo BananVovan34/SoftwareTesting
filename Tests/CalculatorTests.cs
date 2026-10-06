@@ -54,6 +54,18 @@ namespace SoftwareTestingTests
         {
             Assert.ThrowsException<OverflowException>(() => Calculator.Calculate(decimal.MaxValue, 1m, "+"));
         }
+
+        [TestMethod]
+        public void MultiplicationWithAsciiSign()
+        {
+            Assert.AreEqual(12m, Calculator.Calculate(3m, 4m, "*"));
+        }
+
+        [TestMethod]
+        public void DivisionWithAsciiSign()
+        {
+            Assert.AreEqual(3m, Calculator.Calculate(12m, 4m, "/"));
+        }
     }
 
     [TestClass]
