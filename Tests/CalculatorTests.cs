@@ -56,6 +56,12 @@ namespace SoftwareTestingTests
         }
 
         [TestMethod]
+        public void MultiplicationOverflow()
+        {
+            Assert.ThrowsException<OverflowException>(() => Calculator.Calculate(decimal.MaxValue, 2m, "×"));
+        }
+
+        [TestMethod]
         public void MultiplicationWithAsciiSign()
         {
             Assert.AreEqual(12m, Calculator.Calculate(3m, 4m, "*"));
@@ -105,6 +111,12 @@ namespace SoftwareTestingTests
         public void Overflow()
         {
             Check(decimal.MaxValue.ToString(), "1", "+", "", "Результат слишком велик.");
+        }
+
+        [TestMethod]
+        public void MultiplicationOverflow()
+        {
+            Check(decimal.MaxValue.ToString(), "2", "×", "", "Результат слишком велик.");
         }
 
         [TestMethod]
@@ -220,6 +232,40 @@ namespace SoftwareTestingTests
                 Assert.AreEqual("5", Control<TextBox>(form, "resultTextBox").Text);
                 Control<ComboBox>(form, "operationComboBox").SelectedItem = "×";
                 Assert.AreEqual("", Control<TextBox>(form, "resultTextBox").Text);
+            });
+        }
+
+        [TestMethod]
+        public void EnterStartsCalculation()
+        {
+            RunOnSta(() =>
+            {
+                using Form1 form = new Form1();
+                form.Show();
+                Control<TextBox>(form, "firstNumberTextBox").Text = "2";
+                Control<TextBox>(form, "secondNumberTextBox").Text = "3";
+                Control<TextBox>(form, "secondNumberTextBox").Focus();
+                System.Reflection.MethodInfo? processDialogKey = typeof(Form).GetMethod("ProcessDialogKey",
+                    System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+                bool handled = (bool)processDialogKey!.Invoke(form, new object[] { Keys.Enter })!;
+                Assert.IsTrue(handled);
+                Assert.AreEqual("5", Control<TextBox>(form, "resultTextBox").Text);
+            });
+        }
+
+        [TestMethod]
+        public void ResultIsReadOnly()
+        {
+            RunOnSta(() =>
+            {
+                using Form1 form = new Form1();
+                form.Show();
+                Control<TextBox>(form, "firstNumberTextBox").Text = "2";
+                Control<TextBox>(form, "secondNumberTextBox").Text = "3";
+                Control<Button>(form, "calculateButton").PerformClick();
+                TextBox result = Control<TextBox>(form, "resultTextBox");
+                Assert.AreEqual("5", result.Text);
+                Assert.IsTrue(result.ReadOnly);
             });
         }
 
