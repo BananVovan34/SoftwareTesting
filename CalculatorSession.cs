@@ -21,7 +21,9 @@ namespace SoftwareTesting
             try
             {
                 decimal value = Calculator.Calculate(firstNumber, secondNumber, operation);
-                result = value.ToString("G29", CultureInfo.CurrentCulture);
+                result = value >= 1000000000000m || value <= -1000000000000m
+                    ? "≈ " + value.ToString("0.#####E+0", CultureInfo.CurrentCulture)
+                    : value.ToString("G29", CultureInfo.CurrentCulture);
                 return true;
             }
             catch (DivideByZeroException)
@@ -43,6 +45,12 @@ namespace SoftwareTesting
         private static bool TryReadNumber(string text, out decimal number)
         {
             string input = text.Trim();
+
+            if (Regex.IsMatch(input, @"^[+-]?[0-9]{1,3}(?:\.[0-9]{3}){2,}$"))
+            {
+                return decimal.TryParse(input.Replace(".", string.Empty),
+                    NumberStyles.AllowLeadingSign, CultureInfo.InvariantCulture, out number);
+            }
 
             if (input.Contains(',') && input.Contains('.'))
             {
