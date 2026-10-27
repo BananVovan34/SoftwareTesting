@@ -137,6 +137,86 @@ namespace SoftwareTestingTests
             Check("1.234,5", "1", "+", "1235,5", "");
         }
 
+        [TestMethod]
+        public void MillionWithDotGroups()
+        {
+            Check("1.000.000", "2", "+", "1000002", "");
+        }
+
+        [TestMethod]
+        public void NegativeMillionWithDotGroups()
+        {
+            Check("-1.000.000", "2", "+", "-999998", "");
+        }
+
+        [TestMethod]
+        public void InvalidDotGrouping()
+        {
+            Check("1.00.000", "2", "+", "", "Введите два числа.");
+        }
+
+        [TestMethod]
+        public void SingleDotRemainsDecimal()
+        {
+            Check("1.234", "2", "+", "3,234", "");
+        }
+
+        [TestMethod]
+        public void GroupedInputExceedsDecimalRange()
+        {
+            Check("100.000.000.000.000.000.000.000.000.000", "0", "+", "", "Введите два числа.");
+        }
+
+        [TestMethod]
+        public void BelowScientificThreshold()
+        {
+            Check("999999999999", "0", "+", "999999999999", "");
+        }
+
+        [TestMethod]
+        public void AtScientificThreshold()
+        {
+            Check("1000000000000", "0", "+", "≈ 1E+12", "");
+        }
+
+        [TestMethod]
+        public void NegativeScientificResult()
+        {
+            Check("-1000000000000", "0", "+", "≈ -1E+12", "");
+        }
+
+        [TestMethod]
+        public void ScientificResultRoundsToSixSignificantDigits()
+        {
+            Check("1234567890123", "0", "+", "≈ 1,23457E+12", "");
+        }
+
+        [TestMethod]
+        public void ScientificRoundingChangesExponent()
+        {
+            Check("9999999999999", "0", "+", "≈ 1E+13", "");
+        }
+
+        [TestMethod]
+        public void MaximumDecimalResult()
+        {
+            Check(decimal.MaxValue.ToString(), "0", "+", "≈ 7,92282E+28", "");
+        }
+
+        [TestMethod]
+        public void ScientificResultUsesCurrentCulture()
+        {
+            CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
+            Check("1234567890123", "0", "+", "≈ 1.23457E+12", "");
+        }
+
+        [TestMethod]
+        public void GroupedMillionWithEnglishCulture()
+        {
+            CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
+            Check("1.000.000", "2", "+", "1000002", "");
+        }
+
         private static void Check(string first, string second, string operation, string result, string error)
         {
             bool success = CalculatorSession.TryCalculate(first, second, operation,
@@ -266,6 +346,67 @@ namespace SoftwareTestingTests
                 TextBox result = Control<TextBox>(form, "resultTextBox");
                 Assert.AreEqual("5", result.Text);
                 Assert.IsTrue(result.ReadOnly);
+            });
+        }
+
+        [TestMethod]
+        public void GroupedMillionThroughForm()
+        {
+            RunOnSta(() =>
+            {
+                using Form1 form = new Form1();
+                form.Show();
+                Control<TextBox>(form, "firstNumberTextBox").Text = "1.000.000";
+                Control<TextBox>(form, "secondNumberTextBox").Text = "2";
+                Control<Button>(form, "calculateButton").PerformClick();
+                Assert.AreEqual("1000002", Control<TextBox>(form, "resultTextBox").Text);
+                Assert.AreEqual("", Control<Label>(form, "errorLabel").Text);
+            });
+        }
+
+        [TestMethod]
+        public void LargeResultThroughForm()
+        {
+            RunOnSta(() =>
+            {
+                using Form1 form = new Form1();
+                form.Show();
+                Control<ComboBox>(form, "operationComboBox").SelectedItem = "×";
+                Control<TextBox>(form, "firstNumberTextBox").Text = "1.000.000";
+                Control<TextBox>(form, "secondNumberTextBox").Text = "1.000.000";
+                Control<Button>(form, "calculateButton").PerformClick();
+                Assert.AreEqual("≈ 1E+12", Control<TextBox>(form, "resultTextBox").Text);
+                Assert.AreEqual("", Control<Label>(form, "errorLabel").Text);
+            });
+        }
+
+        [TestMethod]
+        public void InvalidDotGroupingThroughForm()
+        {
+            RunOnSta(() =>
+            {
+                using Form1 form = new Form1();
+                form.Show();
+                Control<TextBox>(form, "firstNumberTextBox").Text = "1.00.000";
+                Control<TextBox>(form, "secondNumberTextBox").Text = "2";
+                Control<Button>(form, "calculateButton").PerformClick();
+                Assert.AreEqual("", Control<TextBox>(form, "resultTextBox").Text);
+                Assert.AreEqual("Введите два числа.", Control<Label>(form, "errorLabel").Text);
+            });
+        }
+
+        [TestMethod]
+        public void MaximumResultThroughForm()
+        {
+            RunOnSta(() =>
+            {
+                using Form1 form = new Form1();
+                form.Show();
+                Control<TextBox>(form, "firstNumberTextBox").Text = decimal.MaxValue.ToString();
+                Control<TextBox>(form, "secondNumberTextBox").Text = "0";
+                Control<Button>(form, "calculateButton").PerformClick();
+                Assert.AreEqual("≈ 7,92282E+28", Control<TextBox>(form, "resultTextBox").Text);
+                Assert.AreEqual("", Control<Label>(form, "errorLabel").Text);
             });
         }
 
