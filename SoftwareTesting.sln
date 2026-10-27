@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{86E20E07-9
 		Docs\LAB2_TEST_PLAN.md = Docs\LAB2_TEST_PLAN.md
 		Docs\LAB2.md = Docs\LAB2.md
 		Docs\Тест_план_Арифметический_калькулятор_v1_1.docx = Docs\Тест_план_Арифметический_калькулятор_v1_1.docx
+		Docs\Протокол_проверки_калькулятора_27_10_2026.docx = Docs\Протокол_проверки_калькулятора_27_10_2026.docx
 		Docs\Разбор_лабораторных_работ_1_и_2.docx = Docs\Разбор_лабораторных_работ_1_и_2.docx
 	EndProjectSection
 EndProject
