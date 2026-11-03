@@ -16,10 +16,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{86E20E07-9
 		Docs\CODE_WALKTHROUGH.md = Docs\CODE_WALKTHROUGH.md
 		Docs\LAB2_TEST_PLAN.md = Docs\LAB2_TEST_PLAN.md
 		Docs\LAB2.md = Docs\LAB2.md
+		Docs\LAB3.md = Docs\LAB3.md
+		output\pdf\Отчет_ЛР3_Вариант_3.pdf = output\pdf\Отчет_ЛР3_Вариант_3.pdf
+		Docs\Results\2026-11-03\lab3-cases.json = Docs\Results\2026-11-03\lab3-cases.json
 		Docs\Тест_план_Арифметический_калькулятор_v1_1.docx = Docs\Тест_план_Арифметический_калькулятор_v1_1.docx
 		Docs\Протокол_проверки_калькулятора_27_10_2026.docx = Docs\Протокол_проверки_калькулятора_27_10_2026.docx
 		Docs\Разбор_лабораторных_работ_1_и_2.docx = Docs\Разбор_лабораторных_работ_1_и_2.docx
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{87B7E9C9-4035-1DCE-E58D-63E422A029CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareTesting.Lab3", "Lab3\SoftwareTesting.Lab3.csproj", "{65BDF050-9D18-4C04-9825-3B216B50F22A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,12 +62,25 @@ Global
 		{71BB6D8D-1AA7-4F25-AA38-5379344383FB}.Release|x64.Build.0 = Release|Any CPU
 		{71BB6D8D-1AA7-4F25-AA38-5379344383FB}.Release|x86.ActiveCfg = Release|Any CPU
 		{71BB6D8D-1AA7-4F25-AA38-5379344383FB}.Release|x86.Build.0 = Release|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Debug|x64.Build.0 = Debug|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Debug|x86.Build.0 = Debug|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Release|x64.ActiveCfg = Release|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Release|x64.Build.0 = Release|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Release|x86.ActiveCfg = Release|Any CPU
+		{65BDF050-9D18-4C04-9825-3B216B50F22A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{71BB6D8D-1AA7-4F25-AA38-5379344383FB} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{65BDF050-9D18-4C04-9825-3B216B50F22A} = {87B7E9C9-4035-1DCE-E58D-63E422A029CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2D425D4-17B8-4807-8738-246E9B0CB58E}

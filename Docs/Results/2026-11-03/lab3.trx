@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1e571335-a8a9-4c1f-a1f0-ffc3479d8779" name="ARDOR@BANANVOVAN 2026-11-03 14:01:10" runUser="BANANVOVAN\CodexSandboxOffline" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-03T14:01:10.4833970+03:00" queuing="2026-11-03T14:01:10.4833971+03:00" start="2026-11-03T14:01:09.9412439+03:00" finish="2026-11-03T14:01:29.0666686+03:00" />
+  <TestSettings name="default" id="593a2720-708a-4413-9d8d-d3bcf1e64f1b">
+    <Deployment runDeploymentRoot="ARDOR_BANANVOVAN_2026-11-03_14_01_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d9884a5f-ad40-45c1-8408-6194b5bd7bdf" testId="f16bf2a2-5c49-cf36-62f1-df038dc3de60" testName="ScientificResultRoundsToSixSignificantDigits" computerName="BANANVOVAN" duration="00:00:00.0000557" startTime="2026-11-03T14:01:10.4775319+03:00" endTime="2026-11-03T14:01:10.4776390+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9884a5f-ad40-45c1-8408-6194b5bd7bdf" />
+    <UnitTestResult executionId="33735023-7f33-4267-8dbe-b9d500fad731" testId="9989459f-4c94-9232-f0e7-ccdb54e65f42" testName="NegativeScientificResult" computerName="BANANVOVAN" duration="00:00:00.0000566" startTime="2026-11-03T14:01:10.4774062+03:00" endTime="2026-11-03T14:01:10.4775126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33735023-7f33-4267-8dbe-b9d500fad731" />
+    <UnitTestResult executionId="f8ca188e-7348-42fe-8676-12e72e62c51b" testId="59373928-1cad-7ef8-b503-09a81be2f0c9" testName="Overflow" computerName="BANANVOVAN" duration="00:00:00.0002426" startTime="2026-11-03T14:01:10.4629961+03:00" endTime="2026-11-03T14:01:10.4633355+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8ca188e-7348-42fe-8676-12e72e62c51b" />
+    <UnitTestResult executionId="0ce53b19-19fa-4415-aa45-95bcc3d9ba17" testId="c5d206dd-1c01-c253-a142-f78960f91bf0" testName="GroupedMillionWithEnglishCulture" computerName="BANANVOVAN" duration="00:00:00.0000723" startTime="2026-11-03T14:01:10.4785642+03:00" endTime="2026-11-03T14:01:10.4786887+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ce53b19-19fa-4415-aa45-95bcc3d9ba17" />
+    <UnitTestResult executionId="d43991ef-4c52-43d4-8fc6-1baf1da728a8" testId="95b2e616-7295-0b97-4e9d-de782f3a7d8f" testName="ChangingOperationClearsPreviousResult" computerName="BANANVOVAN" duration="00:00:02.0250800" startTime="2026-11-03T14:01:14.8434505+03:00" endTime="2026-11-03T14:01:16.8687084+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d43991ef-4c52-43d4-8fc6-1baf1da728a8" />
+    <UnitTestResult executionId="3be32a8b-f077-4ff3-a717-6da0005110b1" testId="61dd1ff2-55dc-f7b8-8a3a-c02388e3aa45" testName="LargeResultThroughForm" computerName="BANANVOVAN" duration="00:00:02.0141560" startTime="2026-11-03T14:01:22.9330601+03:00" endTime="2026-11-03T14:01:24.9474018+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3be32a8b-f077-4ff3-a717-6da0005110b1" />
+    <UnitTestResult executionId="36b22645-97f3-412f-ad0a-0300613c7351" testId="49fbbd6e-2a9e-d844-8afd-4335c63d20aa" testName="NegativeMillionWithDotGroups" computerName="BANANVOVAN" duration="00:00:00.0000738" startTime="2026-11-03T14:01:10.4747678+03:00" endTime="2026-11-03T14:01:10.4749051+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36b22645-97f3-412f-ad0a-0300613c7351" />
+    <UnitTestResult executionId="0ef01942-3758-4239-8e54-8cfaddc9d6d8" testId="606e26df-69c8-dd41-2f1c-98adbd9773bd" testName="MultiplicationOfFractions" computerName="BANANVOVAN" duration="00:00:00.0001236" startTime="2026-11-03T14:01:10.4612362+03:00" endTime="2026-11-03T14:01:10.4614492+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ef01942-3758-4239-8e54-8cfaddc9d6d8" />
+    <UnitTestResult executionId="cb65f93d-9003-4f68-81a6-d2ca3173c725" testId="93fc0e84-328e-8136-ca93-33487798ba33" testName="RejectsNonFinitePoint" computerName="BANANVOVAN" duration="00:00:00.0001877" startTime="2026-11-03T14:01:10.4562332+03:00" endTime="2026-11-03T14:01:10.4564699+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb65f93d-9003-4f68-81a6-d2ca3173c725" />
+    <UnitTestResult executionId="a4f436dd-27b4-4e23-bc7b-d5986a6dcd9d" testId="e1222dff-feea-e5d3-ef64-f7ee26c18c93" testName="BelowScientificThreshold" computerName="BANANVOVAN" duration="00:00:00.0000559" startTime="2026-11-03T14:01:10.4767556+03:00" endTime="2026-11-03T14:01:10.4768689+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4f436dd-27b4-4e23-bc7b-d5986a6dcd9d" />
+    <UnitTestResult executionId="b30bfc2b-3623-48a4-965a-b0d9787ef8b4" testId="f7c20041-3080-675c-5415-863adba8c1cf" testName="DivisionByZero" computerName="BANANVOVAN" duration="00:00:00.0000744" startTime="2026-11-03T14:01:10.4722850+03:00" endTime="2026-11-03T14:01:10.4724080+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b30bfc2b-3623-48a4-965a-b0d9787ef8b4" />
+    <UnitTestResult executionId="35f781df-b415-443b-acc1-0315b5dfb61a" testId="43db1e1c-875c-dd30-a5dc-dd9fbeb3c545" testName="BasisFunctionsSumToOneAtAnIndependentPoint" computerName="BANANVOVAN" duration="00:00:00.0017890" startTime="2026-11-03T14:01:10.4479421+03:00" endTime="2026-11-03T14:01:10.4498913+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35f781df-b415-443b-acc1-0315b5dfb61a" />
+    <UnitTestResult executionId="3cee8928-7468-4821-9b03-fc43c8f72b1f" testId="2cf22cc7-b9d1-da8c-2ef8-a47609989d0b" testName="CalculationThroughForm" computerName="BANANVOVAN" duration="00:00:00.2947799" startTime="2026-11-03T14:01:10.4794668+03:00" endTime="2026-11-03T14:01:10.7744135+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cee8928-7468-4821-9b03-fc43c8f72b1f" />
+    <UnitTestResult executionId="92ea77a7-b926-4a4d-90cf-3aedcb970aad" testId="b244f140-4130-9645-bdc2-238255eb1358" testName="ReportExampleMatchesExpectedValue (&quot;T04&quot;)" computerName="BANANVOVAN" duration="00:00:00.0000228" startTime="2026-11-03T14:01:10.4045389+03:00" endTime="2026-11-03T14:01:10.4046793+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92ea77a7-b926-4a4d-90cf-3aedcb970aad" />
+    <UnitTestResult executionId="25f58488-ff00-438a-aa4a-f4d60310cccd" testId="d18f7c29-f4be-92d0-6908-fad12c5f867a" testName="MultiplicationOverflow" computerName="BANANVOVAN" duration="00:00:00.0001100" startTime="2026-11-03T14:01:10.4737715+03:00" endTime="2026-11-03T14:01:10.4739501+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25f58488-ff00-438a-aa4a-f4d60310cccd" />
+    <UnitTestResult executionId="fc492d33-6382-4dac-99ec-793b4c1b8a89" testId="a96fe7eb-457b-f56c-e2d4-b1b59752dbd6" testName="EnterStartsCalculation" computerName="BANANVOVAN" duration="00:00:02.0315825" startTime="2026-11-03T14:01:16.8690895+03:00" endTime="2026-11-03T14:01:18.9008542+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc492d33-6382-4dac-99ec-793b4c1b8a89" />
+    <UnitTestResult executionId="d8365c5d-8fe9-4d5b-822c-65c6feb40594" testId="2fa05adf-c832-eda8-57de-f3c9b9f30e3c" testName="RejectsNonFiniteComputation" computerName="BANANVOVAN" duration="00:00:00.0001603" startTime="2026-11-03T14:01:10.4567180+03:00" endTime="2026-11-03T14:01:10.4570056+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8365c5d-8fe9-4d5b-822c-65c6feb40594" />
+    <UnitTestResult executionId="aeca0d12-511d-4c37-ba25-6102950fba3e" testId="2a6e1c7f-6bc4-d89f-ff0c-2651c95eddc8" testName="ErrorClearsPreviousResult" computerName="BANANVOVAN" duration="00:00:00.0177787" startTime="2026-11-03T14:01:10.7744752+03:00" endTime="2026-11-03T14:01:10.7923723+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aeca0d12-511d-4c37-ba25-6102950fba3e" />
+    <UnitTestResult executionId="1f3310c2-d577-4f77-9d79-7fb65efcf836" testId="7170f853-5012-e799-dadb-8231677049d8" testName="RejectsIndexOutsideTheNodes (-1)" computerName="BANANVOVAN" duration="00:00:00.0002285" startTime="2026-11-03T14:01:10.4508001+03:00" endTime="2026-11-03T14:01:10.4541910+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f3310c2-d577-4f77-9d79-7fb65efcf836" />
+    <UnitTestResult executionId="c1e6ca5a-8788-4716-808c-dca3c78834f2" testId="e6bf7eac-c7ea-59d0-91fe-22c9e7be8114" testName="ReportExampleMatchesExpectedValue (&quot;T07&quot;)" computerName="BANANVOVAN" duration="00:00:00.0000245" startTime="2026-11-03T14:01:10.4049689+03:00" endTime="2026-11-03T14:01:10.4050832+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1e6ca5a-8788-4716-808c-dca3c78834f2" />
+    <UnitTestResult executionId="70696570-790e-47e1-aa60-82ab948ac327" testId="1c444ae0-f78d-0113-da0a-cb5323bfff2a" testName="RejectsRepeatedNodes" computerName="BANANVOVAN" duration="00:00:00.0001458" startTime="2026-11-03T14:01:10.4559951+03:00" endTime="2026-11-03T14:01:10.4562110+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70696570-790e-47e1-aa60-82ab948ac327" />
+    <UnitTestResult executionId="1025958f-8b64-4626-a948-c7e4d4b0cd2f" testId="433a8906-a4ba-a14b-c2bd-861cdf13ff5f" testName="SubtractionOfNegativeNumbers" computerName="BANANVOVAN" duration="00:00:00.0002202" startTime="2026-11-03T14:01:10.4608776+03:00" endTime="2026-11-03T14:01:10.4612074+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1025958f-8b64-4626-a948-c7e4d4b0cd2f" />
+    <UnitTestResult executionId="1aca8c24-3e03-4337-9841-7d75aa1e8e5a" testId="8e9a6a2e-8c82-a330-a3e5-63db70491079" testName="ReportExampleMatchesExpectedValue (&quot;T08&quot;)" computerName="BANANVOVAN" duration="00:00:00.0000169" startTime="2026-11-03T14:01:10.4051243+03:00" endTime="2026-11-03T14:01:10.4052052+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aca8c24-3e03-4337-9841-7d75aa1e8e5a" />
+    <UnitTestResult executionId="e1a0bda9-c71a-4f52-817c-13a488f36cc2" testId="f80aa8f2-1f04-c66d-2e51-c2c6c96f3e19" testName="GroupedNumberWithDotThousands" computerName="BANANVOVAN" duration="00:00:00.0000827" startTime="2026-11-03T14:01:10.4744804+03:00" endTime="2026-11-03T14:01:10.4746060+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1a0bda9-c71a-4f52-817c-13a488f36cc2" />
+    <UnitTestResult executionId="4e4fdb61-7789-4a38-81a1-1b4a002619a8" testId="5005cbc9-c6a3-81e1-7fc7-98c88e35a641" testName="DivisionWithAsciiSign" computerName="BANANVOVAN" duration="00:00:00.0000762" startTime="2026-11-03T14:01:10.4638631+03:00" endTime="2026-11-03T14:01:10.4639860+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e4fdb61-7789-4a38-81a1-1b4a002619a8" />
+    <UnitTestResult executionId="f18db02e-a73b-4245-8011-4e527758053f" testId="cfdaf313-7693-7795-a67c-a44f6f20e3dd" testName="BasisPathP1IsOnlyAStructuralProbe" computerName="BANANVOVAN" duration="00:00:00.0036818" startTime="2026-11-03T14:01:10.4052219+03:00" endTime="2026-11-03T14:01:10.4102754+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f18db02e-a73b-4245-8011-4e527758053f" />
+    <UnitTestResult executionId="6712759f-0bc4-462a-803d-69756c28ca1a" testId="e0b62537-9548-6de9-0cb2-dd7ce09ebfc2" testName="InvalidInput" computerName="BANANVOVAN" duration="00:00:00.0000498" startTime="2026-11-03T14:01:10.4739721+03:00" endTime="2026-11-03T14:01:10.4740631+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6712759f-0bc4-462a-803d-69756c28ca1a" />
+    <UnitTestResult executionId="951cefa8-de51-4a55-bd0a-4f42716265f2" testId="02b875d4-9ac4-c44a-3aa3-110ea00fff08" testName="GroupedInputExceedsDecimalRange" computerName="BANANVOVAN" duration="00:00:00.0000820" startTime="2026-11-03T14:01:10.4765979+03:00" endTime="2026-11-03T14:01:10.4767341+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="951cefa8-de51-4a55-bd0a-4f42716265f2" />
+    <UnitTestResult executionId="3dee3bab-99a8-4845-913c-5944df57ae9c" testId="b88702ce-bb01-7043-27bb-5116b2b1d235" testName="FractionWithComma" computerName="BANANVOVAN" duration="00:00:00.0074428" startTime="2026-11-03T14:01:10.4640043+03:00" endTime="2026-11-03T14:01:10.4716681+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dee3bab-99a8-4845-913c-5944df57ae9c" />
+    <UnitTestResult executionId="b7e75bff-314d-4663-b536-3aea7be771ed" testId="cdc6ffed-02df-1e3a-d3cf-c10f85cd050b" testName="ReportExampleMatchesExpectedValue (&quot;T03&quot;)" computerName="BANANVOVAN" duration="00:00:00.0000318" startTime="2026-11-03T14:01:10.4039646+03:00" endTime="2026-11-03T14:01:10.4045060+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7e75bff-314d-4663-b536-3aea7be771ed" />
+    <UnitTestResult executionId="e21fb6db-a541-4b92-abe8-8f62658367bc" testId="355c980c-c396-8f88-231c-bd6d653b5bd7" testName="GroupedNumberWithCommaThousands" computerName="BANANVOVAN" duration="00:00:00.0003222" startTime="2026-11-03T14:01:10.4740803+03:00" endTime="2026-11-03T14:01:10.4744536+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e21fb6db-a541-4b92-abe8-8f62658367bc" />
+    <UnitTestResult executionId="75b5d3c7-6368-4401-8eb6-307e47eaa9a6" testId="81c38468-0e69-001a-e664-cd3f236969e1" testName="Overflow" computerName="BANANVOVAN" duration="00:00:00.0003825" startTime="2026-11-03T14:01:10.4732824+03:00" endTime="2026-11-03T14:01:10.4737366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75b5d3c7-6368-4401-8eb6-307e47eaa9a6" />
+    <UnitTestResult executionId="f25ca548-147d-40ff-9786-0528295a861b" testId="ad19c670-bbce-47fb-40d7-9d79a8d81ed5" testName="AtScientificThreshold" computerName="BANANVOVAN" duration="00:00:00.0004399" startTime="2026-11-03T14:01:10.4768938+03:00" endTime="2026-11-03T14:01:10.4773858+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f25ca548-147d-40ff-9786-0528295a861b" />
+    <UnitTestResult executionId="bc656d46-5148-4c31-8bdd-dff7205c3479" testId="15fae996-1a6c-c979-a481-4ea40648d313" testName="ScientificRoundingChangesExponent" computerName="BANANVOVAN" duration="00:00:00.0000493" startTime="2026-11-03T14:01:10.4776604+03:00" endTime="2026-11-03T14:01:10.4777530+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc656d46-5148-4c31-8bdd-dff7205c3479" />
+    <UnitTestResult executionId="b4f46718-f84d-482e-98ec-f0b698cad5de" testId="b99877da-3e28-97e9-a101-db35573bdb99" testName="ReportExampleMatchesExpectedValue (&quot;T06&quot;)" computerName="BANANVOVAN" duration="00:00:00.0000195" startTime="2026-11-03T14:01:10.4048440+03:00" endTime="2026-11-03T14:01:10.4049399+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4f46718-f84d-482e-98ec-f0b698cad5de" />
+    <UnitTestResult executionId="749ea46b-b281-4b3c-86b1-6768c9e4cec4" testId="571f08d8-8a08-6345-9460-432dfc02b490" testName="RejectsIndexOutsideTheNodes (2)" computerName="BANANVOVAN" duration="00:00:00.0002368" startTime="2026-11-03T14:01:10.4542358+03:00" endTime="2026-11-03T14:01:10.4546178+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="749ea46b-b281-4b3c-86b1-6768c9e4cec4" />
+    <UnitTestResult executionId="44da8490-f64d-479c-8aef-82d21bc33771" testId="7113d2c3-c68c-b8fb-55a0-4ea483682a88" testName="RejectsNullNodes" computerName="BANANVOVAN" duration="00:00:00.0002909" startTime="2026-11-03T14:01:10.4499339+03:00" endTime="2026-11-03T14:01:10.4503173+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44da8490-f64d-479c-8aef-82d21bc33771" />
+    <UnitTestResult executionId="424fb876-7adb-4ba9-a22e-d37304f2abea" testId="1de094a4-0098-4fb6-d3f5-4a1931d99864" testName="MultiplicationWithAsciiSign" computerName="BANANVOVAN" duration="00:00:00.0000792" startTime="2026-11-03T14:01:10.4637067+03:00" endTime="2026-11-03T14:01:10.4638378+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="424fb876-7adb-4ba9-a22e-d37304f2abea" />
+    <UnitTestResult executionId="8bc85c37-f9f7-4556-83e6-2184eb2aada7" testId="711296fe-92bc-a6b7-c661-03b1e67c8bae" testName="RejectsNonFiniteNode" computerName="BANANVOVAN" duration="00:00:00.0001360" startTime="2026-11-03T14:01:10.4564954+03:00" endTime="2026-11-03T14:01:10.4566847+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bc85c37-f9f7-4556-83e6-2184eb2aada7" />
+    <UnitTestResult executionId="6fecd613-133f-450b-9afc-404afe9ac873" testId="d74814dd-8eb6-6275-a032-6187665c344b" testName="FirstNodeIsSkippedBeforeMultiplication" computerName="BANANVOVAN" duration="00:00:00.0000920" startTime="2026-11-03T14:01:10.4407848+03:00" endTime="2026-11-03T14:01:10.4409214+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fecd613-133f-450b-9afc-404afe9ac873" />
+    <UnitTestResult executionId="8d0acc8d-8baf-4d8b-a99b-61d63f15f2c3" testId="cb9c1b1c-b04b-d4e0-983b-45e7c666f489" testName="InvalidDotGrouping" computerName="BANANVOVAN" duration="00:00:00.0006405" startTime="2026-11-03T14:01:10.4749271+03:00" endTime="2026-11-03T14:01:10.4756280+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d0acc8d-8baf-4d8b-a99b-61d63f15f2c3" />
+    <UnitTestResult executionId="34421a9d-dfdb-4912-8539-8e0774adb104" testId="82244df4-c2a4-2c8c-bbf3-3f62ea8211f8" testName="MaximumResultThroughForm" computerName="BANANVOVAN" duration="00:00:02.0381642" startTime="2026-11-03T14:01:26.9733775+03:00" endTime="2026-11-03T14:01:29.0207482+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34421a9d-dfdb-4912-8539-8e0774adb104" />
+    <UnitTestResult executionId="0e48f759-a3ef-458b-9dd9-46823855d896" testId="7281e969-75d2-5861-e573-0dc8c2663dc7" testName="UnknownOperation" computerName="BANANVOVAN" duration="00:00:00.0001819" startTime="2026-11-03T14:01:10.4627338+03:00" endTime="2026-11-03T14:01:10.4629733+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e48f759-a3ef-458b-9dd9-46823855d896" />
+    <UnitTestResult executionId="c7c45143-9bc6-4f18-bac2-9068bb1c8a75" testId="7ead5b8c-d578-f127-7ba0-952711a51018" testName="ClearRestoresInitialState" computerName="BANANVOVAN" duration="00:00:02.0257847" startTime="2026-11-03T14:01:10.7924485+03:00" endTime="2026-11-03T14:01:12.8184126+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7c45143-9bc6-4f18-bac2-9068bb1c8a75" />
+    <UnitTestResult executionId="e660394f-58f1-4e96-8128-e9efc85bbd1a" testId="3bae7e4f-e4b0-40f9-aaee-819f1f9ee109" testName="MultiplicationOverflow" computerName="BANANVOVAN" duration="00:00:00.0002406" startTime="2026-11-03T14:01:10.4633887+03:00" endTime="2026-11-03T14:01:10.4636818+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e660394f-58f1-4e96-8128-e9efc85bbd1a" />
+    <UnitTestResult executionId="d6bd64e8-ab9d-43b6-b806-b5be808acdd1" testId="1878c560-789f-eee9-3f47-651b6e8f0d6f" testName="DivisionByZero" computerName="BANANVOVAN" duration="00:00:00.0002199" startTime="2026-11-03T14:01:10.4616841+03:00" endTime="2026-11-03T14:01:10.4619504+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6bd64e8-ab9d-43b6-b806-b5be808acdd1" />
+    <UnitTestResult executionId="b94dd5aa-49d9-456d-8a5f-fc823f962063" testId="004b20dc-c768-a1e8-48d9-246c1e3e9dd7" testName="ReportExampleMatchesExpectedValue (&quot;T05&quot;)" computerName="BANANVOVAN" duration="00:00:00.0000186" startTime="2026-11-03T14:01:10.4047122+03:00" endTime="2026-11-03T14:01:10.4048188+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b94dd5aa-49d9-456d-8a5f-fc823f962063" />
+    <UnitTestResult executionId="ea4a1686-b78d-4ccb-8739-87733af7b772" testId="b89db6b7-9ca3-f5ef-d8ca-9795c347383c" testName="Division" computerName="BANANVOVAN" duration="00:00:00.0001212" startTime="2026-11-03T14:01:10.4614751+03:00" endTime="2026-11-03T14:01:10.4616594+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea4a1686-b78d-4ccb-8739-87733af7b772" />
+    <UnitTestResult executionId="d3d1ec74-54c7-4c6c-98f7-f52ac0e2ed3a" testId="1b6267c9-600a-8d31-32c6-353e4d758ada" testName="ValidExamplesCoverAllEightGraphEdges" computerName="BANANVOVAN" duration="00:00:00.0068456" startTime="2026-11-03T14:01:10.4409415+03:00" endTime="2026-11-03T14:01:10.4478697+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3d1ec74-54c7-4c6c-98f7-f52ac0e2ed3a" />
+    <UnitTestResult executionId="95617b95-ec93-4d2b-8c58-b9d80b9f8522" testId="aca8e067-1563-40ad-004f-d35fed590832" testName="ResultIsReadOnly" computerName="BANANVOVAN" duration="00:00:02.0186721" startTime="2026-11-03T14:01:18.9011895+03:00" endTime="2026-11-03T14:01:20.9200332+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95617b95-ec93-4d2b-8c58-b9d80b9f8522" />
+    <UnitTestResult executionId="0c1ff317-0199-405e-9700-1aa1562f9026" testId="c8f92db5-7c57-9d0a-8d15-16780903d7c3" testName="FractionWithDot" computerName="BANANVOVAN" duration="00:00:00.0002950" startTime="2026-11-03T14:01:10.4717323+03:00" endTime="2026-11-03T14:01:10.4721362+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c1ff317-0199-405e-9700-1aa1562f9026" />
+    <UnitTestResult executionId="812e6808-64f5-4dc8-8e0a-6b663e65079d" testId="94733c58-326e-66a7-4add-637ebd7d4ab0" testName="ReportExampleMatchesExpectedValue (&quot;T01&quot;)" computerName="BANANVOVAN" duration="00:00:00.0513151" startTime="2026-11-03T14:01:10.3337404+03:00" endTime="2026-11-03T14:01:10.3972290+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="812e6808-64f5-4dc8-8e0a-6b663e65079d" />
+    <UnitTestResult executionId="0b4bd893-654c-4aeb-975f-5f30ea980a7b" testId="a86425be-8924-e024-43c5-912340cb67f6" testName="Addition" computerName="BANANVOVAN" duration="00:00:00.0035403" startTime="2026-11-03T14:01:10.4570399+03:00" endTime="2026-11-03T14:01:10.4608312+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b4bd893-654c-4aeb-975f-5f30ea980a7b" />
+    <UnitTestResult executionId="f6bbb4f8-a11a-4c04-921d-50eb1b54a678" testId="a41a07bb-b4f6-375f-6b5c-731e6a4d9ae8" testName="ScientificResultUsesCurrentCulture" computerName="BANANVOVAN" duration="00:00:00.0005823" startTime="2026-11-03T14:01:10.4779131+03:00" endTime="2026-11-03T14:01:10.4785413+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6bbb4f8-a11a-4c04-921d-50eb1b54a678" />
+    <UnitTestResult executionId="f32fcd65-bfc1-465a-8d58-06176e2c22ca" testId="74471f7c-c14a-f24c-b013-f694cfbbbd1b" testName="ReportExampleMatchesExpectedValue (&quot;T02&quot;)" computerName="BANANVOVAN" duration="00:00:00.0003834" startTime="2026-11-03T14:01:10.4022650+03:00" endTime="2026-11-03T14:01:10.4030957+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f32fcd65-bfc1-465a-8d58-06176e2c22ca" />
+    <UnitTestResult executionId="494755f8-5c65-4fdc-9427-80fefd05e82a" testId="5caadca7-615e-b8e3-3faf-6e6704fcdd67" testName="EditingNumberClearsPreviousResult" computerName="BANANVOVAN" duration="00:00:02.0246736" startTime="2026-11-03T14:01:12.8184964+03:00" endTime="2026-11-03T14:01:14.8433616+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="494755f8-5c65-4fdc-9427-80fefd05e82a" />
+    <UnitTestResult executionId="f54fe886-f86c-453a-b77d-32306609e229" testId="af55f68e-87e3-8c6d-2cf9-62643cf89eff" testName="InvalidDotGroupingThroughForm" computerName="BANANVOVAN" duration="00:00:02.0236309" startTime="2026-11-03T14:01:24.9477041+03:00" endTime="2026-11-03T14:01:26.9715780+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f54fe886-f86c-453a-b77d-32306609e229" />
+    <UnitTestResult executionId="09520061-92ff-4a6b-8fee-cddb354a120d" testId="45e1433a-fdb4-de27-d268-cfbc2b22138e" testName="MillionWithDotGroups" computerName="BANANVOVAN" duration="00:00:00.0000593" startTime="2026-11-03T14:01:10.4746239+03:00" endTime="2026-11-03T14:01:10.4747239+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09520061-92ff-4a6b-8fee-cddb354a120d" />
+    <UnitTestResult executionId="8a386312-e18e-4766-966e-82213cd99aab" testId="885c43ac-8e82-4351-22ca-1db45631a0a8" testName="EmptyInput" computerName="BANANVOVAN" duration="00:00:00.0000457" startTime="2026-11-03T14:01:10.4721724+03:00" endTime="2026-11-03T14:01:10.4722700+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a386312-e18e-4766-966e-82213cd99aab" />
+    <UnitTestResult executionId="b3138d79-2b83-47b8-bb5e-ee90faaaeff3" testId="578ef1f2-eb10-f0c1-4874-cb09cfa30d20" testName="BasisPathP3MultipliesBeforeSkippingK" computerName="BANANVOVAN" duration="00:00:00.0001219" startTime="2026-11-03T14:01:10.4405737+03:00" endTime="2026-11-03T14:01:10.4407597+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3138d79-2b83-47b8-bb5e-ee90faaaeff3" />
+    <UnitTestResult executionId="c3e5c65c-8a38-4e6a-8bee-8cae616f3c13" testId="39fffb23-404d-1d00-4001-70ca77e12742" testName="SingleDotRemainsDecimal" computerName="BANANVOVAN" duration="00:00:00.0000546" startTime="2026-11-03T14:01:10.4756490+03:00" endTime="2026-11-03T14:01:10.4757532+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3e5c65c-8a38-4e6a-8bee-8cae616f3c13" />
+    <UnitTestResult executionId="338befb6-5bef-4169-a775-46e4014bdd08" testId="89dc1d12-734b-4515-bd4f-c3e2e561960f" testName="RejectsEmptyNodes" computerName="BANANVOVAN" duration="00:00:00.0001682" startTime="2026-11-03T14:01:10.4503747+03:00" endTime="2026-11-03T14:01:10.4507594+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="338befb6-5bef-4169-a775-46e4014bdd08" />
+    <UnitTestResult executionId="cd6c183e-b353-422d-9109-6bbb3ffee27c" testId="bf3bfc56-f710-5f36-eb1a-9beb82c7e82d" testName="BasisPathP2SkipsTheOnlyNode" computerName="BANANVOVAN" duration="00:00:00.0004129" startTime="2026-11-03T14:01:10.4399993+03:00" endTime="2026-11-03T14:01:10.4405288+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd6c183e-b353-422d-9109-6bbb3ffee27c" />
+    <UnitTestResult executionId="220087dc-bbf4-4fe8-bab2-0549f345b654" testId="48ed21d7-8518-e738-a630-c0484919f242" testName="MaximumDecimalResult" computerName="BANANVOVAN" duration="00:00:00.0000774" startTime="2026-11-03T14:01:10.4777711+03:00" endTime="2026-11-03T14:01:10.4778955+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="220087dc-bbf4-4fe8-bab2-0549f345b654" />
+    <UnitTestResult executionId="f49e575a-c706-4367-9bb3-2082ef3476b9" testId="979b9c39-f3a1-debe-cdab-e9165d479796" testName="GroupedMillionThroughForm" computerName="BANANVOVAN" duration="00:00:02.0121376" startTime="2026-11-03T14:01:20.9203536+03:00" endTime="2026-11-03T14:01:22.9326895+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f49e575a-c706-4367-9bb3-2082ef3476b9" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BasisPathP2SkipsTheOnlyNode" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="bf3bfc56-f710-5f36-eb1a-9beb82c7e82d">
+      <Execution id="cd6c183e-b353-422d-9109-6bbb3ffee27c" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="BasisPathP2SkipsTheOnlyNode" />
+    </UnitTest>
+    <UnitTest name="DivisionByZero" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="1878c560-789f-eee9-3f47-651b6e8f0d6f">
+      <Execution id="d6bd64e8-ab9d-43b6-b806-b5be808acdd1" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="DivisionByZero" />
+    </UnitTest>
+    <UnitTest name="BasisPathP1IsOnlyAStructuralProbe" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="cfdaf313-7693-7795-a67c-a44f6f20e3dd">
+      <Execution id="f18db02e-a73b-4245-8011-4e527758053f" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="BasisPathP1IsOnlyAStructuralProbe" />
+    </UnitTest>
+    <UnitTest name="MaximumDecimalResult" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="48ed21d7-8518-e738-a630-c0484919f242">
+      <Execution id="220087dc-bbf4-4fe8-bab2-0549f345b654" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="MaximumDecimalResult" />
+    </UnitTest>
+    <UnitTest name="DivisionWithAsciiSign" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="5005cbc9-c6a3-81e1-7fc7-98c88e35a641">
+      <Execution id="4e4fdb61-7789-4a38-81a1-1b4a002619a8" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="DivisionWithAsciiSign" />
+    </UnitTest>
+    <UnitTest name="FirstNodeIsSkippedBeforeMultiplication" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="d74814dd-8eb6-6275-a032-6187665c344b">
+      <Execution id="6fecd613-133f-450b-9afc-404afe9ac873" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="FirstNodeIsSkippedBeforeMultiplication" />
+    </UnitTest>
+    <UnitTest name="FractionWithDot" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="c8f92db5-7c57-9d0a-8d15-16780903d7c3">
+      <Execution id="0c1ff317-0199-405e-9700-1aa1562f9026" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="FractionWithDot" />
+    </UnitTest>
+    <UnitTest name="EmptyInput" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="885c43ac-8e82-4351-22ca-1db45631a0a8">
+      <Execution id="8a386312-e18e-4766-966e-82213cd99aab" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="EmptyInput" />
+    </UnitTest>
+    <UnitTest name="ChangingOperationClearsPreviousResult" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="95b2e616-7295-0b97-4e9d-de782f3a7d8f">
+      <Execution id="d43991ef-4c52-43d4-8fc6-1baf1da728a8" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="ChangingOperationClearsPreviousResult" />
+    </UnitTest>
+    <UnitTest name="MillionWithDotGroups" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="45e1433a-fdb4-de27-d268-cfbc2b22138e">
+      <Execution id="09520061-92ff-4a6b-8fee-cddb354a120d" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="MillionWithDotGroups" />
+    </UnitTest>
+    <UnitTest name="BasisFunctionsSumToOneAtAnIndependentPoint" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="43db1e1c-875c-dd30-a5dc-dd9fbeb3c545">
+      <Execution id="35f781df-b415-443b-acc1-0315b5dfb61a" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="BasisFunctionsSumToOneAtAnIndependentPoint" />
+    </UnitTest>
+    <UnitTest name="LargeResultThroughForm" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="61dd1ff2-55dc-f7b8-8a3a-c02388e3aa45">
+      <Execution id="3be32a8b-f077-4ff3-a717-6da0005110b1" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="LargeResultThroughForm" />
+    </UnitTest>
+    <UnitTest name="SubtractionOfNegativeNumbers" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="433a8906-a4ba-a14b-c2bd-861cdf13ff5f">
+      <Execution id="1025958f-8b64-4626-a948-c7e4d4b0cd2f" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="SubtractionOfNegativeNumbers" />
+    </UnitTest>
+    <UnitTest name="RejectsNonFinitePoint" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="93fc0e84-328e-8136-ca93-33487798ba33">
+      <Execution id="cb65f93d-9003-4f68-81a6-d2ca3173c725" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsNonFinitePoint" />
+    </UnitTest>
+    <UnitTest name="CalculationThroughForm" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="2cf22cc7-b9d1-da8c-2ef8-a47609989d0b">
+      <Execution id="3cee8928-7468-4821-9b03-fc43c8f72b1f" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="CalculationThroughForm" />
+    </UnitTest>
+    <UnitTest name="ClearRestoresInitialState" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="7ead5b8c-d578-f127-7ba0-952711a51018">
+      <Execution id="c7c45143-9bc6-4f18-bac2-9068bb1c8a75" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="ClearRestoresInitialState" />
+    </UnitTest>
+    <UnitTest name="RejectsEmptyNodes" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="89dc1d12-734b-4515-bd4f-c3e2e561960f">
+      <Execution id="338befb6-5bef-4169-a775-46e4014bdd08" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsEmptyNodes" />
+    </UnitTest>
+    <UnitTest name="EditingNumberClearsPreviousResult" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="5caadca7-615e-b8e3-3faf-6e6704fcdd67">
+      <Execution id="494755f8-5c65-4fdc-9427-80fefd05e82a" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="EditingNumberClearsPreviousResult" />
+    </UnitTest>
+    <UnitTest name="InvalidDotGrouping" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="cb9c1b1c-b04b-d4e0-983b-45e7c666f489">
+      <Execution id="8d0acc8d-8baf-4d8b-a99b-61d63f15f2c3" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="InvalidDotGrouping" />
+    </UnitTest>
+    <UnitTest name="GroupedMillionThroughForm" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="979b9c39-f3a1-debe-cdab-e9165d479796">
+      <Execution id="f49e575a-c706-4367-9bb3-2082ef3476b9" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="GroupedMillionThroughForm" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T02&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="74471f7c-c14a-f24c-b013-f694cfbbbd1b">
+      <Execution id="f32fcd65-bfc1-465a-8d58-06176e2c22ca" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+    <UnitTest name="BasisPathP3MultipliesBeforeSkippingK" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="578ef1f2-eb10-f0c1-4874-cb09cfa30d20">
+      <Execution id="b3138d79-2b83-47b8-bb5e-ee90faaaeff3" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="BasisPathP3MultipliesBeforeSkippingK" />
+    </UnitTest>
+    <UnitTest name="Overflow" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="59373928-1cad-7ef8-b503-09a81be2f0c9">
+      <Execution id="f8ca188e-7348-42fe-8676-12e72e62c51b" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="Overflow" />
+    </UnitTest>
+    <UnitTest name="BelowScientificThreshold" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="e1222dff-feea-e5d3-ef64-f7ee26c18c93">
+      <Execution id="a4f436dd-27b4-4e23-bc7b-d5986a6dcd9d" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="BelowScientificThreshold" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T08&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="8e9a6a2e-8c82-a330-a3e5-63db70491079">
+      <Execution id="1aca8c24-3e03-4337-9841-7d75aa1e8e5a" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T05&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="004b20dc-c768-a1e8-48d9-246c1e3e9dd7">
+      <Execution id="b94dd5aa-49d9-456d-8a5f-fc823f962063" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T06&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="b99877da-3e28-97e9-a101-db35573bdb99">
+      <Execution id="b4f46718-f84d-482e-98ec-f0b698cad5de" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+    <UnitTest name="InvalidInput" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="e0b62537-9548-6de9-0cb2-dd7ce09ebfc2">
+      <Execution id="6712759f-0bc4-462a-803d-69756c28ca1a" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="InvalidInput" />
+    </UnitTest>
+    <UnitTest name="ErrorClearsPreviousResult" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="2a6e1c7f-6bc4-d89f-ff0c-2651c95eddc8">
+      <Execution id="aeca0d12-511d-4c37-ba25-6102950fba3e" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="ErrorClearsPreviousResult" />
+    </UnitTest>
+    <UnitTest name="RejectsNullNodes" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="7113d2c3-c68c-b8fb-55a0-4ea483682a88">
+      <Execution id="44da8490-f64d-479c-8aef-82d21bc33771" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsNullNodes" />
+    </UnitTest>
+    <UnitTest name="GroupedMillionWithEnglishCulture" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="c5d206dd-1c01-c253-a142-f78960f91bf0">
+      <Execution id="0ce53b19-19fa-4415-aa45-95bcc3d9ba17" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="GroupedMillionWithEnglishCulture" />
+    </UnitTest>
+    <UnitTest name="MaximumResultThroughForm" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="82244df4-c2a4-2c8c-bbf3-3f62ea8211f8">
+      <Execution id="34421a9d-dfdb-4912-8539-8e0774adb104" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="MaximumResultThroughForm" />
+    </UnitTest>
+    <UnitTest name="InvalidDotGroupingThroughForm" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="af55f68e-87e3-8c6d-2cf9-62643cf89eff">
+      <Execution id="f54fe886-f86c-453a-b77d-32306609e229" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="InvalidDotGroupingThroughForm" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T01&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="94733c58-326e-66a7-4add-637ebd7d4ab0">
+      <Execution id="812e6808-64f5-4dc8-8e0a-6b663e65079d" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+    <UnitTest name="MultiplicationOverflow" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="3bae7e4f-e4b0-40f9-aaee-819f1f9ee109">
+      <Execution id="e660394f-58f1-4e96-8128-e9efc85bbd1a" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="MultiplicationOverflow" />
+    </UnitTest>
+    <UnitTest name="RejectsIndexOutsideTheNodes (-1)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="7170f853-5012-e799-dadb-8231677049d8">
+      <Execution id="1f3310c2-d577-4f77-9d79-7fb65efcf836" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsIndexOutsideTheNodes" />
+    </UnitTest>
+    <UnitTest name="ResultIsReadOnly" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="aca8e067-1563-40ad-004f-d35fed590832">
+      <Execution id="95617b95-ec93-4d2b-8c58-b9d80b9f8522" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="ResultIsReadOnly" />
+    </UnitTest>
+    <UnitTest name="RejectsNonFiniteComputation" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="2fa05adf-c832-eda8-57de-f3c9b9f30e3c">
+      <Execution id="d8365c5d-8fe9-4d5b-822c-65c6feb40594" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsNonFiniteComputation" />
+    </UnitTest>
+    <UnitTest name="Division" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="b89db6b7-9ca3-f5ef-d8ca-9795c347383c">
+      <Execution id="ea4a1686-b78d-4ccb-8739-87733af7b772" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="Division" />
+    </UnitTest>
+    <UnitTest name="MultiplicationWithAsciiSign" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="1de094a4-0098-4fb6-d3f5-4a1931d99864">
+      <Execution id="424fb876-7adb-4ba9-a22e-d37304f2abea" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="MultiplicationWithAsciiSign" />
+    </UnitTest>
+    <UnitTest name="RejectsNonFiniteNode" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="711296fe-92bc-a6b7-c661-03b1e67c8bae">
+      <Execution id="8bc85c37-f9f7-4556-83e6-2184eb2aada7" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsNonFiniteNode" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T07&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="e6bf7eac-c7ea-59d0-91fe-22c9e7be8114">
+      <Execution id="c1e6ca5a-8788-4716-808c-dca3c78834f2" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+    <UnitTest name="GroupedNumberWithCommaThousands" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="355c980c-c396-8f88-231c-bd6d653b5bd7">
+      <Execution id="e21fb6db-a541-4b92-abe8-8f62658367bc" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="GroupedNumberWithCommaThousands" />
+    </UnitTest>
+    <UnitTest name="ValidExamplesCoverAllEightGraphEdges" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="1b6267c9-600a-8d31-32c6-353e4d758ada">
+      <Execution id="d3d1ec74-54c7-4c6c-98f7-f52ac0e2ed3a" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ValidExamplesCoverAllEightGraphEdges" />
+    </UnitTest>
+    <UnitTest name="RejectsRepeatedNodes" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="1c444ae0-f78d-0113-da0a-cb5323bfff2a">
+      <Execution id="70696570-790e-47e1-aa60-82ab948ac327" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsRepeatedNodes" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T04&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="b244f140-4130-9645-bdc2-238255eb1358">
+      <Execution id="92ea77a7-b926-4a4d-90cf-3aedcb970aad" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+    <UnitTest name="Overflow" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="81c38468-0e69-001a-e664-cd3f236969e1">
+      <Execution id="75b5d3c7-6368-4401-8eb6-307e47eaa9a6" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="Overflow" />
+    </UnitTest>
+    <UnitTest name="DivisionByZero" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="f7c20041-3080-675c-5415-863adba8c1cf">
+      <Execution id="b30bfc2b-3623-48a4-965a-b0d9787ef8b4" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="DivisionByZero" />
+    </UnitTest>
+    <UnitTest name="GroupedInputExceedsDecimalRange" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="02b875d4-9ac4-c44a-3aa3-110ea00fff08">
+      <Execution id="951cefa8-de51-4a55-bd0a-4f42716265f2" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="GroupedInputExceedsDecimalRange" />
+    </UnitTest>
+    <UnitTest name="EnterStartsCalculation" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="a96fe7eb-457b-f56c-e2d4-b1b59752dbd6">
+      <Execution id="fc492d33-6382-4dac-99ec-793b4c1b8a89" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorFormTests" name="EnterStartsCalculation" />
+    </UnitTest>
+    <UnitTest name="AtScientificThreshold" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="ad19c670-bbce-47fb-40d7-9d79a8d81ed5">
+      <Execution id="f25ca548-147d-40ff-9786-0528295a861b" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="AtScientificThreshold" />
+    </UnitTest>
+    <UnitTest name="NegativeMillionWithDotGroups" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="49fbbd6e-2a9e-d844-8afd-4335c63d20aa">
+      <Execution id="36b22645-97f3-412f-ad0a-0300613c7351" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="NegativeMillionWithDotGroups" />
+    </UnitTest>
+    <UnitTest name="FractionWithComma" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="b88702ce-bb01-7043-27bb-5116b2b1d235">
+      <Execution id="3dee3bab-99a8-4845-913c-5944df57ae9c" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="FractionWithComma" />
+    </UnitTest>
+    <UnitTest name="GroupedNumberWithDotThousands" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="f80aa8f2-1f04-c66d-2e51-c2c6c96f3e19">
+      <Execution id="e1a0bda9-c71a-4f52-817c-13a488f36cc2" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="GroupedNumberWithDotThousands" />
+    </UnitTest>
+    <UnitTest name="NegativeScientificResult" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="9989459f-4c94-9232-f0e7-ccdb54e65f42">
+      <Execution id="33735023-7f33-4267-8dbe-b9d500fad731" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="NegativeScientificResult" />
+    </UnitTest>
+    <UnitTest name="MultiplicationOfFractions" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="606e26df-69c8-dd41-2f1c-98adbd9773bd">
+      <Execution id="0ef01942-3758-4239-8e54-8cfaddc9d6d8" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="MultiplicationOfFractions" />
+    </UnitTest>
+    <UnitTest name="UnknownOperation" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="7281e969-75d2-5861-e573-0dc8c2663dc7">
+      <Execution id="0e48f759-a3ef-458b-9dd9-46823855d896" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="UnknownOperation" />
+    </UnitTest>
+    <UnitTest name="Addition" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="a86425be-8924-e024-43c5-912340cb67f6">
+      <Execution id="0b4bd893-654c-4aeb-975f-5f30ea980a7b" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorTests" name="Addition" />
+    </UnitTest>
+    <UnitTest name="ScientificRoundingChangesExponent" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="15fae996-1a6c-c979-a481-4ea40648d313">
+      <Execution id="bc656d46-5148-4c31-8bdd-dff7205c3479" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="ScientificRoundingChangesExponent" />
+    </UnitTest>
+    <UnitTest name="SingleDotRemainsDecimal" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="39fffb23-404d-1d00-4001-70ca77e12742">
+      <Execution id="c3e5c65c-8a38-4e6a-8bee-8cae616f3c13" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="SingleDotRemainsDecimal" />
+    </UnitTest>
+    <UnitTest name="ScientificResultRoundsToSixSignificantDigits" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="f16bf2a2-5c49-cf36-62f1-df038dc3de60">
+      <Execution id="d9884a5f-ad40-45c1-8408-6194b5bd7bdf" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="ScientificResultRoundsToSixSignificantDigits" />
+    </UnitTest>
+    <UnitTest name="MultiplicationOverflow" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="d18f7c29-f4be-92d0-6908-fad12c5f867a">
+      <Execution id="25f58488-ff00-438a-aa4a-f4d60310cccd" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="MultiplicationOverflow" />
+    </UnitTest>
+    <UnitTest name="RejectsIndexOutsideTheNodes (2)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="571f08d8-8a08-6345-9460-432dfc02b490">
+      <Execution id="749ea46b-b281-4b3c-86b1-6768c9e4cec4" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="RejectsIndexOutsideTheNodes" />
+    </UnitTest>
+    <UnitTest name="ScientificResultUsesCurrentCulture" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="a41a07bb-b4f6-375f-6b5c-731e6a4d9ae8">
+      <Execution id="f6bbb4f8-a11a-4c04-921d-50eb1b54a678" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTestingTests.CalculatorSessionTests" name="ScientificResultUsesCurrentCulture" />
+    </UnitTest>
+    <UnitTest name="ReportExampleMatchesExpectedValue (&quot;T03&quot;)" storage="e:\study\softwaretesting\tests\bin\debug\net8.0-windows\softwaretesting.tests.dll" id="cdc6ffed-02df-1e3a-d3cf-c10f85cd050b">
+      <Execution id="b7e75bff-314d-4663-b536-3aea7be771ed" />
+      <TestMethod codeBase="E:\study\SoftwareTesting\Tests\bin\Debug\net8.0-windows\SoftwareTesting.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="SoftwareTesting.Tests.LagrangeBasisTests" name="ReportExampleMatchesExpectedValue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f16bf2a2-5c49-cf36-62f1-df038dc3de60" executionId="d9884a5f-ad40-45c1-8408-6194b5bd7bdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9989459f-4c94-9232-f0e7-ccdb54e65f42" executionId="33735023-7f33-4267-8dbe-b9d500fad731" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59373928-1cad-7ef8-b503-09a81be2f0c9" executionId="f8ca188e-7348-42fe-8676-12e72e62c51b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5d206dd-1c01-c253-a142-f78960f91bf0" executionId="0ce53b19-19fa-4415-aa45-95bcc3d9ba17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95b2e616-7295-0b97-4e9d-de782f3a7d8f" executionId="d43991ef-4c52-43d4-8fc6-1baf1da728a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61dd1ff2-55dc-f7b8-8a3a-c02388e3aa45" executionId="3be32a8b-f077-4ff3-a717-6da0005110b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49fbbd6e-2a9e-d844-8afd-4335c63d20aa" executionId="36b22645-97f3-412f-ad0a-0300613c7351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="606e26df-69c8-dd41-2f1c-98adbd9773bd" executionId="0ef01942-3758-4239-8e54-8cfaddc9d6d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93fc0e84-328e-8136-ca93-33487798ba33" executionId="cb65f93d-9003-4f68-81a6-d2ca3173c725" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1222dff-feea-e5d3-ef64-f7ee26c18c93" executionId="a4f436dd-27b4-4e23-bc7b-d5986a6dcd9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7c20041-3080-675c-5415-863adba8c1cf" executionId="b30bfc2b-3623-48a4-965a-b0d9787ef8b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43db1e1c-875c-dd30-a5dc-dd9fbeb3c545" executionId="35f781df-b415-443b-acc1-0315b5dfb61a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cf22cc7-b9d1-da8c-2ef8-a47609989d0b" executionId="3cee8928-7468-4821-9b03-fc43c8f72b1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b244f140-4130-9645-bdc2-238255eb1358" executionId="92ea77a7-b926-4a4d-90cf-3aedcb970aad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d18f7c29-f4be-92d0-6908-fad12c5f867a" executionId="25f58488-ff00-438a-aa4a-f4d60310cccd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a96fe7eb-457b-f56c-e2d4-b1b59752dbd6" executionId="fc492d33-6382-4dac-99ec-793b4c1b8a89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fa05adf-c832-eda8-57de-f3c9b9f30e3c" executionId="d8365c5d-8fe9-4d5b-822c-65c6feb40594" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a6e1c7f-6bc4-d89f-ff0c-2651c95eddc8" executionId="aeca0d12-511d-4c37-ba25-6102950fba3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7170f853-5012-e799-dadb-8231677049d8" executionId="1f3310c2-d577-4f77-9d79-7fb65efcf836" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6bf7eac-c7ea-59d0-91fe-22c9e7be8114" executionId="c1e6ca5a-8788-4716-808c-dca3c78834f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c444ae0-f78d-0113-da0a-cb5323bfff2a" executionId="70696570-790e-47e1-aa60-82ab948ac327" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="433a8906-a4ba-a14b-c2bd-861cdf13ff5f" executionId="1025958f-8b64-4626-a948-c7e4d4b0cd2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e9a6a2e-8c82-a330-a3e5-63db70491079" executionId="1aca8c24-3e03-4337-9841-7d75aa1e8e5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f80aa8f2-1f04-c66d-2e51-c2c6c96f3e19" executionId="e1a0bda9-c71a-4f52-817c-13a488f36cc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5005cbc9-c6a3-81e1-7fc7-98c88e35a641" executionId="4e4fdb61-7789-4a38-81a1-1b4a002619a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfdaf313-7693-7795-a67c-a44f6f20e3dd" executionId="f18db02e-a73b-4245-8011-4e527758053f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0b62537-9548-6de9-0cb2-dd7ce09ebfc2" executionId="6712759f-0bc4-462a-803d-69756c28ca1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02b875d4-9ac4-c44a-3aa3-110ea00fff08" executionId="951cefa8-de51-4a55-bd0a-4f42716265f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b88702ce-bb01-7043-27bb-5116b2b1d235" executionId="3dee3bab-99a8-4845-913c-5944df57ae9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdc6ffed-02df-1e3a-d3cf-c10f85cd050b" executionId="b7e75bff-314d-4663-b536-3aea7be771ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="355c980c-c396-8f88-231c-bd6d653b5bd7" executionId="e21fb6db-a541-4b92-abe8-8f62658367bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81c38468-0e69-001a-e664-cd3f236969e1" executionId="75b5d3c7-6368-4401-8eb6-307e47eaa9a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad19c670-bbce-47fb-40d7-9d79a8d81ed5" executionId="f25ca548-147d-40ff-9786-0528295a861b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15fae996-1a6c-c979-a481-4ea40648d313" executionId="bc656d46-5148-4c31-8bdd-dff7205c3479" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b99877da-3e28-97e9-a101-db35573bdb99" executionId="b4f46718-f84d-482e-98ec-f0b698cad5de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="571f08d8-8a08-6345-9460-432dfc02b490" executionId="749ea46b-b281-4b3c-86b1-6768c9e4cec4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7113d2c3-c68c-b8fb-55a0-4ea483682a88" executionId="44da8490-f64d-479c-8aef-82d21bc33771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1de094a4-0098-4fb6-d3f5-4a1931d99864" executionId="424fb876-7adb-4ba9-a22e-d37304f2abea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="711296fe-92bc-a6b7-c661-03b1e67c8bae" executionId="8bc85c37-f9f7-4556-83e6-2184eb2aada7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d74814dd-8eb6-6275-a032-6187665c344b" executionId="6fecd613-133f-450b-9afc-404afe9ac873" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb9c1b1c-b04b-d4e0-983b-45e7c666f489" executionId="8d0acc8d-8baf-4d8b-a99b-61d63f15f2c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82244df4-c2a4-2c8c-bbf3-3f62ea8211f8" executionId="34421a9d-dfdb-4912-8539-8e0774adb104" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7281e969-75d2-5861-e573-0dc8c2663dc7" executionId="0e48f759-a3ef-458b-9dd9-46823855d896" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ead5b8c-d578-f127-7ba0-952711a51018" executionId="c7c45143-9bc6-4f18-bac2-9068bb1c8a75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bae7e4f-e4b0-40f9-aaee-819f1f9ee109" executionId="e660394f-58f1-4e96-8128-e9efc85bbd1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1878c560-789f-eee9-3f47-651b6e8f0d6f" executionId="d6bd64e8-ab9d-43b6-b806-b5be808acdd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="004b20dc-c768-a1e8-48d9-246c1e3e9dd7" executionId="b94dd5aa-49d9-456d-8a5f-fc823f962063" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b89db6b7-9ca3-f5ef-d8ca-9795c347383c" executionId="ea4a1686-b78d-4ccb-8739-87733af7b772" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b6267c9-600a-8d31-32c6-353e4d758ada" executionId="d3d1ec74-54c7-4c6c-98f7-f52ac0e2ed3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aca8e067-1563-40ad-004f-d35fed590832" executionId="95617b95-ec93-4d2b-8c58-b9d80b9f8522" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8f92db5-7c57-9d0a-8d15-16780903d7c3" executionId="0c1ff317-0199-405e-9700-1aa1562f9026" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94733c58-326e-66a7-4add-637ebd7d4ab0" executionId="812e6808-64f5-4dc8-8e0a-6b663e65079d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a86425be-8924-e024-43c5-912340cb67f6" executionId="0b4bd893-654c-4aeb-975f-5f30ea980a7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a41a07bb-b4f6-375f-6b5c-731e6a4d9ae8" executionId="f6bbb4f8-a11a-4c04-921d-50eb1b54a678" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74471f7c-c14a-f24c-b013-f694cfbbbd1b" executionId="f32fcd65-bfc1-465a-8d58-06176e2c22ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5caadca7-615e-b8e3-3faf-6e6704fcdd67" executionId="494755f8-5c65-4fdc-9427-80fefd05e82a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af55f68e-87e3-8c6d-2cf9-62643cf89eff" executionId="f54fe886-f86c-453a-b77d-32306609e229" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45e1433a-fdb4-de27-d268-cfbc2b22138e" executionId="09520061-92ff-4a6b-8fee-cddb354a120d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="885c43ac-8e82-4351-22ca-1db45631a0a8" executionId="8a386312-e18e-4766-966e-82213cd99aab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="578ef1f2-eb10-f0c1-4874-cb09cfa30d20" executionId="b3138d79-2b83-47b8-bb5e-ee90faaaeff3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39fffb23-404d-1d00-4001-70ca77e12742" executionId="c3e5c65c-8a38-4e6a-8bee-8cae616f3c13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89dc1d12-734b-4515-bd4f-c3e2e561960f" executionId="338befb6-5bef-4169-a775-46e4014bdd08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf3bfc56-f710-5f36-eb1a-9beb82c7e82d" executionId="cd6c183e-b353-422d-9109-6bbb3ffee27c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48ed21d7-8518-e738-a630-c0484919f242" executionId="220087dc-bbf4-4fe8-bab2-0549f345b654" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="979b9c39-f3a1-debe-cdab-e9165d479796" executionId="f49e575a-c706-4367-9bb3-2082ef3476b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="65" executed="65" passed="65" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

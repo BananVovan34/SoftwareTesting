@@ -1,0 +1,256 @@
+{
+  "Variant": 3,
+  "Tolerance": 1E-12,
+  "Results": [
+    {
+      "Id": "T01",
+      "Nodes": [
+        3
+      ],
+      "N": 0,
+      "K": 0,
+      "T": 100,
+      "Expected": 1,
+      "Actual": 1,
+      "Path": [
+        1,
+        2,
+        3,
+        4,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "T02",
+      "Nodes": [
+        0,
+        2
+      ],
+      "N": 1,
+      "K": 1,
+      "T": 1,
+      "Expected": 0.5,
+      "Actual": 0.5,
+      "Path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        2,
+        3,
+        4,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "T03",
+      "Nodes": [
+        0,
+        2
+      ],
+      "N": 1,
+      "K": 0,
+      "T": 1,
+      "Expected": 0.5,
+      "Actual": 0.5,
+      "Path": [
+        1,
+        2,
+        3,
+        4,
+        2,
+        3,
+        5,
+        6,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "T04",
+      "Nodes": [
+        0,
+        1,
+        2
+      ],
+      "N": 2,
+      "K": 1,
+      "T": 1.5,
+      "Expected": 0.75,
+      "Actual": 0.75,
+      "Path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        2,
+        3,
+        4,
+        2,
+        3,
+        5,
+        6,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "T05",
+      "Nodes": [
+        0,
+        1,
+        2
+      ],
+      "N": 2,
+      "K": 1,
+      "T": 1,
+      "Expected": 1,
+      "Actual": 1,
+      "Path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        2,
+        3,
+        4,
+        2,
+        3,
+        5,
+        6,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "T06",
+      "Nodes": [
+        0,
+        1,
+        2
+      ],
+      "N": 2,
+      "K": 1,
+      "T": 0,
+      "Expected": 0,
+      "Actual": 0,
+      "Path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        2,
+        3,
+        4,
+        2,
+        3,
+        5,
+        6,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "T07",
+      "Nodes": [
+        -2,
+        0,
+        2
+      ],
+      "N": 2,
+      "K": 1,
+      "T": 3,
+      "Expected": -1.25,
+      "Actual": -1.25,
+      "Path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        2,
+        3,
+        4,
+        2,
+        3,
+        5,
+        6,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "T08",
+      "Nodes": [
+        -1,
+        0,
+        2,
+        4
+      ],
+      "N": 3,
+      "K": 2,
+      "T": 1,
+      "Expected": 0.5,
+      "Actual": 0.5,
+      "Path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        2,
+        3,
+        5,
+        6,
+        2,
+        3,
+        4,
+        2,
+        3,
+        5,
+        6,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": true
+    },
+    {
+      "Id": "S01",
+      "Nodes": [],
+      "N": -1,
+      "K": 0,
+      "T": 0,
+      "Expected": 1,
+      "Actual": 1,
+      "Path": [
+        1,
+        2,
+        7
+      ],
+      "Passed": true,
+      "InDomain": false
+    }
+  ],
+  "Passed": true
+}

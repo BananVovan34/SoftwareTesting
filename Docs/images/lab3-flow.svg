@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1250" viewBox="0 0 1440 1250">
+<rect width="1440" height="1250" fill="white"/>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="black"/></marker></defs>
+<polyline points="755.0,160.0 755.0,280.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="755.0,360.0 755.0,540.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="715.0,320.0 125.0,320.0 125.0,1120.0 175.0,1120.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="727.0,610.0 505.0,780.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="783.0,610.0 1005.0,780.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="435.0,810.0 335.0,810.0 335.0,440.0 725.0,350.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1035.0,850.0 1035.0,970.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="1075.0,1010.0 1275.0,1010.0 1275.0,320.0 795.0,320.0" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="755.0" cy="119.99999999999993" r="40" fill="white" stroke="black" stroke-width="4"/>
+<text x="755.0" y="119.99999999999993" font-family="Arial" font-size="44" text-anchor="middle" dominant-baseline="central">1</text>
+<polygon points="755.0,279.99999999999994 795.0,319.99999999999994 755.0,359.99999999999994 715.0,319.99999999999994" fill="white" stroke="black" stroke-width="4"/>
+<text x="755.0" y="319.99999999999994" font-family="Arial" font-size="44" text-anchor="middle" dominant-baseline="central">2</text>
+<polygon points="755.0,539.9999999999999 795.0,579.9999999999999 755.0,619.9999999999999 715.0,579.9999999999999" fill="white" stroke="black" stroke-width="4"/>
+<text x="755.0" y="579.9999999999999" font-family="Arial" font-size="44" text-anchor="middle" dominant-baseline="central">3</text>
+<circle cx="475.00000000000006" cy="810.0" r="40" fill="white" stroke="black" stroke-width="4"/>
+<text x="475.00000000000006" y="810.0" font-family="Arial" font-size="44" text-anchor="middle" dominant-baseline="central">4</text>
+<circle cx="1035.0" cy="810.0" r="40" fill="white" stroke="black" stroke-width="4"/>
+<text x="1035.0" y="810.0" font-family="Arial" font-size="44" text-anchor="middle" dominant-baseline="central">5</text>
+<circle cx="1035.0" cy="1010.0" r="40" fill="white" stroke="black" stroke-width="4"/>
+<text x="1035.0" y="1010.0" font-family="Arial" font-size="44" text-anchor="middle" dominant-baseline="central">6</text>
+<circle cx="215.0" cy="1120.0" r="40" fill="white" stroke="black" stroke-width="4"/>
+<text x="215.0" y="1120.0" font-family="Arial" font-size="44" text-anchor="middle" dominant-baseline="central">7</text>
+<text x="799.0000000000001" y="439.99999999999994" font-family="Arial" font-size="39" text-anchor="middle" dominant-baseline="central">Да</text>
+<text x="525.0" y="289.9999999999999" font-family="Arial" font-size="39" text-anchor="middle" dominant-baseline="central">Нет</text>
+<text x="565.0" y="640.0" font-family="Arial" font-size="39" text-anchor="middle" dominant-baseline="central">Да</text>
+<text x="941.0" y="640.0" font-family="Arial" font-size="39" text-anchor="middle" dominant-baseline="central">Нет</text>
+<text x="545.0" y="499.9999999999999" font-family="Arial" font-size="39" text-anchor="middle" dominant-baseline="central">R1</text>
+<text x="1005.0" y="499.9999999999999" font-family="Arial" font-size="39" text-anchor="middle" dominant-baseline="central">R2</text>
+<text x="195.00000000000006" y="159.99999999999997" font-family="Arial" font-size="39" text-anchor="middle" dominant-baseline="central">R3</text>
+</svg>

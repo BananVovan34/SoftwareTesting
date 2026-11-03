@@ -11,5 +11,6 @@
     <PackageReference Include="MSTest.TestAdapter" Version="3.6.4" />
     <PackageReference Include="MSTest.TestFramework" Version="3.6.4" />
     <ProjectReference Include="..\SoftwareTesting.csproj" />
+    <ProjectReference Include="..\Lab3\SoftwareTesting.Lab3.csproj" />
   </ItemGroup>
 </Project>

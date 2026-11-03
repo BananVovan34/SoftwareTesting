@@ -1,0 +1,100 @@
+[
+  {
+    "Name": "args",
+    "Arguments": [
+      "1",
+      "1",
+      "0",
+      "2"
+    ],
+    "Input": null,
+    "ExpectedExit": 0,
+    "ActualExit": 0,
+    "Stdout": "n = 1; k = 1\nL_1(1) = 0.5\nПуть: 1 -> 2 -> 3 -> 5 -> 6 -> 2 -> 3 -> 4 -> 2 -> 7\n",
+    "Stderr": "",
+    "Passed": true
+  },
+  {
+    "Name": "comma",
+    "Arguments": [
+      "1",
+      "1,5",
+      "0",
+      "1",
+      "2"
+    ],
+    "Input": null,
+    "ExpectedExit": 0,
+    "ActualExit": 0,
+    "Stdout": "n = 2; k = 1\nL_1(1.5) = 0.75\nПуть: 1 -> 2 -> 3 -> 5 -> 6 -> 2 -> 3 -> 4 -> 2 -> 3 -> 5 -> 6 -> 2 -> 7\n",
+    "Stderr": "",
+    "Passed": true
+  },
+  {
+    "Name": "interactive",
+    "Arguments": [],
+    "Input": "0 1 2\n1\n1,5\n",
+    "ExpectedExit": 0,
+    "ActualExit": 0,
+    "Stdout": "Лабораторная работа 3, вариант 3. Вычисление L_k(t).\nУзлы x0 ... xn через пробел: Индекс k от 0 до n: Точка t: n = 2; k = 1\nL_1(1.5) = 0.75\nПуть: 1 -> 2 -> 3 -> 5 -> 6 -> 2 -> 3 -> 4 -> 2 -> 3 -> 5 -> 6 -> 2 -> 7\n",
+    "Stderr": "",
+    "Passed": true
+  },
+  {
+    "Name": "duplicate",
+    "Arguments": [
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    "Input": null,
+    "ExpectedExit": 1,
+    "ActualExit": 1,
+    "Stdout": "",
+    "Stderr": "Ошибка: Узлы должны быть различными. (Parameter 'nodes')\n",
+    "Passed": true
+  },
+  {
+    "Name": "index",
+    "Arguments": [
+      "2",
+      "1",
+      "0",
+      "2"
+    ],
+    "Input": null,
+    "ExpectedExit": 1,
+    "ActualExit": 1,
+    "Stdout": "",
+    "Stderr": "Ошибка: Индекс k должен быть от 0 до n. (Parameter 'k')\n",
+    "Passed": true
+  },
+  {
+    "Name": "malformed",
+    "Arguments": [
+      "x",
+      "1",
+      "0",
+      "2"
+    ],
+    "Input": null,
+    "ExpectedExit": 1,
+    "ActualExit": 1,
+    "Stdout": "",
+    "Stderr": "Ошибка: The input string 'x' was not in a correct format.\n",
+    "Passed": true
+  },
+  {
+    "Name": "help",
+    "Arguments": [
+      "--help"
+    ],
+    "Input": null,
+    "ExpectedExit": 0,
+    "ActualExit": 0,
+    "Stdout": "ЛР3, вариант 3: вычисление L_k(t).\nБез аргументов: ввод узлов, индекса k и точки t по запросам.\nАргументы: k t x0 x1 ... xn. Дроби: 1.5 или 1,5.\nПример: dotnet run --project Lab3/SoftwareTesting.Lab3.csproj -- 1 1 0 2\n--demo: JSON с восемью примерами и отдельным структурным экспериментом.\n",
+    "Stderr": "",
+    "Passed": true
+  }
+]
