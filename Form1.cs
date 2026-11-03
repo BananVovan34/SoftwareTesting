@@ -5,6 +5,7 @@ namespace SoftwareTesting
         public Form1()
         {
             InitializeComponent();
+            MinimumSize = Size;
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)

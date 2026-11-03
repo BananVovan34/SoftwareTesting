@@ -46,6 +46,7 @@
             operationLabel.AutoSize = true;
             operationLabel.Location = new Point(24, 25);
             operationLabel.Text = "Операция";
+            operationComboBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             operationComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             operationComboBox.Name = "operationComboBox";
             operationComboBox.Items.AddRange(new object[] { "+", "-", "×", "÷" });
@@ -57,6 +58,7 @@
             firstNumberLabel.AutoSize = true;
             firstNumberLabel.Location = new Point(24, 90);
             firstNumberLabel.Text = "Первое число";
+            firstNumberTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             firstNumberTextBox.Location = new Point(24, 113);
             firstNumberTextBox.Name = "firstNumberTextBox";
             firstNumberTextBox.Size = new Size(252, 27);
@@ -65,6 +67,7 @@
             secondNumberLabel.AutoSize = true;
             secondNumberLabel.Location = new Point(24, 154);
             secondNumberLabel.Text = "Второе число";
+            secondNumberTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             secondNumberTextBox.Location = new Point(24, 177);
             secondNumberTextBox.Name = "secondNumberTextBox";
             secondNumberTextBox.Size = new Size(252, 27);
@@ -76,6 +79,7 @@
             calculateButton.Text = "Вычислить";
             calculateButton.UseVisualStyleBackColor = true;
             calculateButton.Click += CalculateButton_Click;
+            clearButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             clearButton.Location = new Point(156, 222);
             clearButton.Name = "clearButton";
             clearButton.Size = new Size(120, 36);
@@ -86,6 +90,7 @@
             resultLabel.AutoSize = true;
             resultLabel.Location = new Point(24, 275);
             resultLabel.Text = "Результат";
+            resultTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             resultTextBox.Location = new Point(24, 298);
             resultTextBox.Name = "resultTextBox";
             resultTextBox.ReadOnly = true;
@@ -110,8 +115,8 @@
             Controls.Add(resultLabel);
             Controls.Add(resultTextBox);
             Controls.Add(errorLabel);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximizeBox = false;
+            FormBorderStyle = FormBorderStyle.Sizable;
+            MaximizeBox = true;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Арифметический калькулятор";
