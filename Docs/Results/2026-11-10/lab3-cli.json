@@ -1,0 +1,102 @@
+[
+  {
+    "Id": "T01",
+    "Input": "0\n3\n0\n100\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = Введите индекс k: Введите точку t: L = 1\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 1,
+    "Actual": 1.0,
+    "Passed": true
+  },
+  {
+    "Id": "T02",
+    "Input": "1\n0\n2\n1\n1\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = Введите индекс k: Введите точку t: L = 0,5\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 0.5,
+    "Actual": 0.5,
+    "Passed": true
+  },
+  {
+    "Id": "T03",
+    "Input": "1\n0\n2\n0\n1\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = Введите индекс k: Введите точку t: L = 0,5\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 0.5,
+    "Actual": 0.5,
+    "Passed": true
+  },
+  {
+    "Id": "T04",
+    "Input": "2\n0\n1\n2\n1\n1.5\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = x[2] = Введите индекс k: Введите точку t: L = 0,75\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 0.75,
+    "Actual": 0.75,
+    "Passed": true
+  },
+  {
+    "Id": "T05",
+    "Input": "2\n0\n1\n2\n1\n1\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = x[2] = Введите индекс k: Введите точку t: L = 1\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 1,
+    "Actual": 1.0,
+    "Passed": true
+  },
+  {
+    "Id": "T06",
+    "Input": "2\n0\n1\n2\n1\n0\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = x[2] = Введите индекс k: Введите точку t: L = 0\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 0,
+    "Actual": 0.0,
+    "Passed": true
+  },
+  {
+    "Id": "T07",
+    "Input": "2\n-2\n0\n2\n1\n3\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = x[2] = Введите индекс k: Введите точку t: L = -1,25\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": -1.25,
+    "Actual": -1.25,
+    "Passed": true
+  },
+  {
+    "Id": "T08",
+    "Input": "3\n-1\n0\n2\n4\n2\n1\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = x[2] = x[3] = Введите индекс k: Введите точку t: L = 0,5\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 0.5,
+    "Actual": 0.5,
+    "Passed": true
+  },
+  {
+    "Id": "T04_decimal_comma",
+    "Input": "2\n0\n1\n2\n1\n1,5\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = x[2] = Введите индекс k: Введите точку t: L = 0,75\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 0.75,
+    "Actual": 0.75,
+    "Passed": true
+  },
+  {
+    "Id": "fractional_nodes_comma",
+    "Input": "1\n0,5\n2,5\n1\n1,5\n",
+    "Stdout": "Введите n (количество узлов минус 1): x[0] = x[1] = Введите индекс k: Введите точку t: L = 0,5\n",
+    "Stderr": "",
+    "ExitCode": 0,
+    "Expected": 0.5,
+    "Actual": 0.5,
+    "Passed": true
+  }
+]
